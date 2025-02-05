@@ -31,7 +31,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Through remote desktop we logged in as an admin user and created some files to share with an agent user login. Next, we went to the active directory users and computers tab to create an organizational unit and then granted access to Domain users. Then, we created 4 different files and granted them different levels of access priveleges. In this example we granted Doamin Users read/write priveleges in the "read access" folder.  
 </p>
 <br />
 
@@ -40,5 +40,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+When we switched over to the agent desktop under Domain Users via remote desktop, we naviagted to the "read access" file we granted Domain Users access to. Then, we opened the file and opened up a note tab to verify that read/wtite priveleges had been granted.
 </p>
